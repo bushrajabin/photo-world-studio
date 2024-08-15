@@ -85,15 +85,15 @@ h1, h2, h3{
 .header-content{
     padding-bottom: 4rem;
 }
-.header-content h1{
-    font-size: 4.5rem;
+.header-content h2{
+    font-size:40px;
     margin-bottom: 0;
     text-transform: uppercase;
     color: var(--light-color);
 }
 .header-content h3{
     color: var(--light-color);
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-top: 1.5rem;
@@ -172,6 +172,18 @@ h1, h2, h3{
 .work-bottom > div .icon img{
     width: 50px;
     margin: 0 auto 1.7rem auto;
+}
+
+/* Skills */
+
+.skills{
+    text-align: center;
+    font-size: 25px;
+    padding:10px;
+}
+.skills>h1{
+    color:var(--light-color);
+    letter-spacing: 4px;
 }
 /* portfolio */
 .portfolio-grid > div{
@@ -285,6 +297,14 @@ h1, h2, h3{
     border-radius: 50%;
 }
 
+.container>h3{
+    color: var(--light-color);
+    text-align: center;
+    padding-top: 10px;
+    font-family:cursive;
+    font-size: 17px;
+}
+
 
 /* Media Queries */
 
@@ -361,12 +381,6 @@ h1, h2, h3{
 @media(min-width: 1200px){
     .portfolio-grid{
         grid-template-columns: repeat(3, 1fr);
-    }
-    .portfolio-grid > div:nth-child(2){
-        grid-column: 2 / 4;
-    }
-    .portfolio-grid > div:nth-child(6){
-        grid-column: 1 / 3;
     }
 }
 
