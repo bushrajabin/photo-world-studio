@@ -235,15 +235,13 @@ h3 {
 .portfolio-grid>div:hover {
     transform: scale(0.9);
 }
-.portfolio-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
 .portfolio-content>a{
    font-size: 20px;
    font-style: italic;
    padding-top: 2px;
+
+   justify-content: center;
    
 }
 
